@@ -53,7 +53,7 @@ $ ros2 run mypkg listener
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
-* 実験結果
+* 実行結果
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/yumat/.ros/log/2023-12-27-03-52-54-605604-悠真のdynabook-2966
