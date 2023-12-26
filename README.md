@@ -1,17 +1,17 @@
 # mypkg
 [![test](https://github.com/YumaTakimoto/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/YumaTakimoto/mypkg/actions/workflows/test.yml)
 
-このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で使用したものである。
+このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で使用したものです。
 
 # インストール方法
-ROS2を使用できる環境でこのリポジトリをクローンして使用する。  
+ROS2を使用できる環境でこのリポジトリをクローンして使用してください。
 
 ```
 $ git clone https://github.com/YumaTakimoto/mypkg.git
 ```
 
 # talker.py
-* 数字をカウントし、/countupを通じてメッセージを送信するパブリッシャを持つノードです
+* 数字をカウントし、/countupを通じてメッセージを送信するパブリッシャを持つノードです。
 * 実行方法
 ```
 $ ros2 run mypkg talker
@@ -19,11 +19,11 @@ $ ros2 run mypkg talker
 * 実行結果
 ```
 $ ros2 run mypkg talker
-(なにも表示されないです)
+(なにも表示されないです。)
 ```
 
 # listener.py
-* /countupからメッセージをもらって表示するサブスクライバを持つノードです
+* /countupからメッセージをもらって表示するサブスクライバを持つノードです。
 * 実行方法
 ```
 $ ros2 run mypkg listener
@@ -44,7 +44,7 @@ $ ros2 run mypkg listener
 [INFO] [1703614620.290075553] [listener]: Listen: 45
 [INFO] [1703614620.789807503] [listener]: Listen: 46
 [INFO] [1703614621.290553867] [listener]: Listen: 47
-(ctrl+cを押すまで表示し続けます)
+(ctrl+cを押すまで表示し続けます。)
 ```
 
 # talk_listen.launch.py
